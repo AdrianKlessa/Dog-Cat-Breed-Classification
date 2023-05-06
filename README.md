@@ -16,7 +16,7 @@ I created two models:
 
 * One convolutional neural network built and trained from scratch. As expected from the low amount of data the validation accuracy was far from ideal - 20%. Much better than random guessing but far from useful. This is located in the "initial-model" Jupyter notebook of this repo.
 
-* One convolutional neural network utilizing transfer learning. It's based on Resnet50 as the base model, originally trained on the imagenet dataset and fune-tuned by me on the abovementioned dataset uploaded to Kaggle. The resulting validation accuracy was much higher (>80%). It is worth noting that the original imagenet dataset already contained a large number of dog and cats pictures, so it is not surprising. 
+* One convolutional neural network utilizing transfer learning. It's based on Resnet50 as the base model, originally trained on the imagenet dataset and fune-tuned by me on the abovementioned dataset uploaded to Kaggle. The resulting validation accuracy was much higher (>80%). It is worth noting that the original imagenet dataset already contained a large number of dog and cats pictures, so it is not surprising. This is the "resnet-based-model" file of this repository.
 
 ### Tools used:
 
